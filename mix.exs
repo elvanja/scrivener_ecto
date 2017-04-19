@@ -41,8 +41,8 @@ defmodule Scrivener.Ecto.Mixfile do
 
   defp deps do
     [
-      {:scrivener, git: "git://github.com/zoldar/scrivener.git"},
-      {:ecto, git: "git://github.com/elvanja/ecto.git", branch: "fix-validate-confirmation-for-invalid-params-v2.1.4"},
+      {:scrivener, github: "zoldar/scrivener"},
+      {:ecto, github: "elixir-ecto/ecto", branch: "v2.1"},
       {:dialyxir, "~> 0.4.0", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
       {:ex_doc, "~> 0.14.0", only: :dev},
